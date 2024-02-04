@@ -26,7 +26,7 @@ export default function App() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="hero"
       >
         <SwiperSlide>
           <img

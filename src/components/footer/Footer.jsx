@@ -140,7 +140,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="row-3 u-margin-top-small">
+      <div className="row-3">
         <p className="developer-text">
           Made with 🤍 &amp;&amp; 🔥 by Gigcrafters
         </p>
