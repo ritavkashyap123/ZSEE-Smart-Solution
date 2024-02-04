@@ -1,0 +1,9 @@
+.map {
+    height: 30vh;
+    width: 30vw;
+    z-index: 2;
+    @media (max-width: 900px) {
+        height: 30vh;
+        width: 70vw;
+    }
+}

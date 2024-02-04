@@ -1,10 +1,15 @@
-import React from 'react'
-import './home.scss'
+import React from "react";
+import "./home.scss";
+import Hero from './Hero'
+import Card from "../../components/cards/Card";
 
 const Home = () => {
   return (
-    <div className='Home'>Home</div>
-  )
-}
+    <div className="Home">
+      <Hero />
+      <Card />
+    </div>
+  );
+};
 
-export default Home
+export default Home;

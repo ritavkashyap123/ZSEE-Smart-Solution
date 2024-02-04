@@ -14,7 +14,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const scrollThreshold = window.innerHeight * 0.9;
+      const scrollThreshold = window.innerHeight * 0.2;
       setIsScrolled(scrollPosition > scrollThreshold);
     };
 
@@ -38,6 +38,8 @@ const Navbar = () => {
         >
           <img src={logo} alt="" width={60} />
           {/* FRINT */}
+          ZSEE Smart Solution <br />
+          India Private Limited
         </Link>
 
         <div className="hamburger" onClick={toggleNav}>
@@ -58,7 +60,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="link">
-            <Link className="a" to="/comapanies">
+            <Link className="a" to="/companies">
               Companies
             </Link>
           </li>

@@ -39,7 +39,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="box">
-            <h4 className="title">Offices</h4>
+            <h4 className="title">Businesses</h4>
             <ul className="list">
               <li className="item">
                 <Link to="#" className="link">
@@ -75,7 +75,7 @@ const Footer = () => {
           </select>
         </div> */}
           <div className="box">
-            <h4 className="title">Offices</h4>
+            <h4 className="title">Companies</h4>
             <ul className="list">
               <li className="item">
                 <Link to="#" className="link">
