@@ -1,6 +1,13 @@
 @import "../../styles/colors.scss";
 .Home {
   display: block;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: $dark-blue;
+  }
   .hero {
     width: 100%;
     height: 100vh;
@@ -65,13 +72,30 @@
     .swiper-slide {
       text-align: center;
       font-size: 18px;
-      background: #fff;
-      height: calc((100% - 30px) / 2) !important;
 
-      /* Center slide text vertically */
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+  }
+  .impact {
+    width: 90%;
+    height: 50vh;
+    margin: 1rem;
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 }
