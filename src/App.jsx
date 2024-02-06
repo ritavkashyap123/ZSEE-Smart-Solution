@@ -4,12 +4,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
-import Business from "./pages/business/Business";
-import Company from "./pages/companies/Company";
+import Services from "./pages/services/Services";
 import Timeline from "./pages/timeline/Timeline";
 import Impact from "./pages/impact/Impact";
 import Contact from "./pages/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Board from "./pages/board/Board";
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/business" element={<Business />} />
-        <Route path="/companies" element={<Company />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/board" element={<Board />} />
         <Route path="/timeline" element={<Timeline />} />
         <Route path="/impact" element={<Impact />} />
         <Route path="/contact" element={<Contact />} />

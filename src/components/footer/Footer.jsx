@@ -22,8 +22,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="item">
-                <Link to="/timeline" className="link">
-                  Timeline
+                <Link to="/board" className="link">
+                  Board
                 </Link>
               </li>
               <li className="item">
@@ -39,7 +39,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="box">
-            <h4 className="title">Businesses</h4>
+            <h4 className="title">Timeline</h4>
             <ul className="list">
               <li className="item">
                 <Link to="#" className="link">
@@ -75,7 +75,7 @@ const Footer = () => {
           </select>
         </div> */}
           <div className="box">
-            <h4 className="title">Companies</h4>
+            <h4 className="title">Services</h4>
             <ul className="list">
               <li className="item">
                 <Link to="#" className="link">

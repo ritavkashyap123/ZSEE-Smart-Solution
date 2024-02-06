@@ -60,13 +60,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="link">
-            <Link className="a" to="/companies">
-              Companies
+            <Link className="a" to="/board">
+              Board
             </Link>
           </li>
           <li className="link">
-            <Link className="a" to="/business">
-              Businesses
+            <Link className="a" to="/services">
+              Services
             </Link>
           </li>
           <li className="link">

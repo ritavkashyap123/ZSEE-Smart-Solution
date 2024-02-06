@@ -1,9 +1,9 @@
 import React from "react";
-import "./company.scss";
+import "./board.scss";
 
-const Company = () => {
+const Board = () => {
   return (
-    <div className="Company">
+    <div className="Board">
       <img
         src="https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
         alt=""
@@ -14,4 +14,4 @@ const Company = () => {
   );
 };
 
-export default Company;
+export default Board;

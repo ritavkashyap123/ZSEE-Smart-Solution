@@ -1,9 +1,9 @@
 import React from "react";
-import "./business.scss";
+import "./services.scss";
 
-const Business = () => {
+const Services = () => {
   return (
-    <div className="Business">
+    <div className="Services">
       <img
         src="https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
         alt=""
@@ -14,4 +14,4 @@ const Business = () => {
   );
 };
 
-export default Business;
+export default Services;
