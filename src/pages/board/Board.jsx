@@ -9,7 +9,7 @@ const Board = () => {
         alt=""
         className="header-image"
       />
-      <div className="header-text">Companies</div>
+      <div className="header-text">Board Members</div>
     </div>
   );
 };

@@ -9,7 +9,7 @@ const Services = () => {
         alt=""
         className="header-image"
       />
-      <div className="header-text">Businesses</div>
+      <div className="header-text">Our Services</div>
     </div>
   );
 };

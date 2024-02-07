@@ -10,7 +10,7 @@ const About = () => {
         className="header-image"
       />
       <div className="header-text">
-          About
+          About us
       </div>
     </div>
   );
