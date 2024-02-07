@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -136,6 +136,9 @@ const Footer = () => {
             </Link>
             <Link to="#" className="social-link">
               <FaLinkedin className="icon" />
+            </Link>
+            <Link to="#" className="social-link">
+              <FaYoutube className="icon" />
             </Link>
           </div>
         </div>

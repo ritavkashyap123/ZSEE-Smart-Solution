@@ -7,7 +7,7 @@ import { Pagination } from 'swiper/modules';
 
 import "./home.scss";
 
-const Impact = () => {
+const ImpactSection = () => {
 
   return (
     <>
@@ -44,4 +44,4 @@ const Impact = () => {
   );
 };
 
-export default Impact;
+export default ImpactSection;
