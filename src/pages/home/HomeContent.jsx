@@ -90,21 +90,39 @@ const HeroContent = () => {
   ];
   const impact = [
     {
-      title: "The part of my life in University of Pennsylvania",
-      date: "2 Feb",
-      para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
+      title: " Crisp Spanish tortilla Matzo brei",
+      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      category: "IoT",
       link: "/",
     },
     {
-      title: "The part of my life in University of Pennsylvania",
-      date: "2 Feb",
-      para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
+      title: " Crisp Spanish tortilla Matzo brei",
+      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      category: "IoT",
       link: "/",
     },
     {
-      title: "The part of my life in University of Pennsylvania",
-      date: "2 Feb",
-      para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
+      title: " Crisp Spanish tortilla Matzo brei",
+      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      category: "IoT",
+      link: "/",
+    },
+    {
+      title: " Crisp Spanish tortilla Matzo brei",
+      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      category: "IoT",
+      link: "/",
+    },
+    {
+      title: " Crisp Spanish tortilla Matzo brei",
+      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      category: "IoT",
+      link: "/",
+    },
+    {
+      title: " Crisp Spanish tortilla Matzo brei",
+      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      category: "IoT",
       link: "/",
     },
   ];

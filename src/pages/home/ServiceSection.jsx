@@ -9,7 +9,7 @@ import HomeContent from "./HomeContent";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
-const Services = () => {
+const ServiceSection = () => {
   const { service } = HomeContent();
 
   return (
@@ -26,11 +26,7 @@ const Services = () => {
       pagination={{
         clickable: true,
       }}
-      navigation={true}
-      // navigation={{
-      //   nextEl: ".swiper-button-next",
-      //   prevEl: ".swiper-button-prev",
-      // }}
+      navigation={true} 
       breakpoints={{
         200: {
           rows: 2,
@@ -68,4 +64,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServiceSection;

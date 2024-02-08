@@ -4,13 +4,16 @@ const TimelineContent = () => {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
+
     },
     {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
   ];
   const year2023 = [
@@ -18,13 +21,15 @@ const TimelineContent = () => {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
     {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
   ];
   const year2022 = [
@@ -32,19 +37,22 @@ const TimelineContent = () => {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
     {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
     {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
   ];
   const year2021 = [
@@ -52,19 +60,22 @@ const TimelineContent = () => {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
     {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
     {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
   ];
   const year2020 = [
@@ -72,19 +83,22 @@ const TimelineContent = () => {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
     {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
     {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
   ];
   const year2019 = [
@@ -92,7 +106,8 @@ const TimelineContent = () => {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
     {
       title: "The part of my life in University of Pennsylvania",
@@ -104,7 +119,8 @@ const TimelineContent = () => {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
   ];
   const year2018 = [
@@ -112,19 +128,22 @@ const TimelineContent = () => {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
     {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
     {
       title: "The part of my life in University of Pennsylvania",
       date: "2 Feb",
       para: "Attends the Philadelphia Museum School of Industrial Art. Studies design with Alexey Brodovitch, art director at Harper's Bazaar, and works as his assistant.",
-      link: "/"
+      link: "/",
+      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
     },
   ];
   

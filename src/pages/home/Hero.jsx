@@ -16,7 +16,6 @@ const Hero = () => {
   const { hero } = HomeContent();
   return (
     <>
-    
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -33,10 +32,7 @@ const Hero = () => {
       >
         {hero.map((hero, index) => (
           <SwiperSlide key={index}>
-            <img
-              src={hero.image}
-              alt=""
-            />
+            <img src={hero.image} alt="" />
             <div className="slide-text">
               <div className="title">{hero.title}</div>
               <div className="tag">{hero.para}</div>

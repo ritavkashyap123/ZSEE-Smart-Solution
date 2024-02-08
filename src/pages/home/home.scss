@@ -5,6 +5,7 @@
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
+    margin: 0.5rem;
     color: $dark-blue;
   }
   .subheader {
@@ -12,11 +13,12 @@
     font-size: 1.5rem;
     color: $dark-blue;
   }
+
   .hero {
     width: 100%;
     height: 100vh;
     --swiper-pagination-color: #18c9c5;
-    --swiper-navigation-color: white;
+    --swiper-navigation-color: #18c9c5;
     --swiper-pagination-bullet-inactive-color: #fff;
 
     .swiper-slide {
@@ -37,6 +39,8 @@
       }
       .slide-text {
         position: absolute;
+        width: 80%;
+        height: 100%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -51,6 +55,14 @@
         }
         .tag {
           font-size: 1.5rem;
+        }
+        @media (max-width: 768px) {
+          .title {
+            font-size: 2.5rem;
+          }
+          .tag {
+            font-size: 1rem;
+          }
         }
         .link {
           all: unset;
@@ -70,27 +82,6 @@
   .service {
     width: 90%;
     height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .swiper-button-next {
-      margin-top: 0px;
-      position: absolute;
-      top: 50%;
-      right: -40px;
-      width: 45px;
-      height: 45px;
-      transform: translateY(-50%);
-    }
-    .swiper-button-prev {
-      position: absolute;
-      top: 50%;
-      left: -40px;
-      width: 45px;
-      height: 45px;
-      transform: translateY(-50%);
-      margin-top: 0px;
-    }
     .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -212,7 +203,6 @@
   .impact {
     width: 90%;
     height: 50vh;
-    margin: 1rem;
     .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -220,6 +210,98 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+      background-color: #fff;
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+      &:hover {
+        box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+        transform: scale(1.1, 1.1);
+      }
+      .card {
+        all: unset;
+      }
+
+      .card__img {
+        visibility: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 235px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+      }
+
+      .card__info-hover {
+        position: absolute;
+        padding: 16px;
+        width: 100%;
+        opacity: 0;
+        top: 0;
+      }
+
+      .card__img--hover {
+        transition: 0.2s all ease-out;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: absolute;
+        height: 235px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        left: 0;
+        top: 0;
+      }
+
+      .card__info {
+        z-index: 2;
+        background-color: #fff;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        padding: 16px 24px 24px 24px;
+      }
+
+      .card__category {
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 2px;
+        font-weight: 500;
+        color: #868686;
+      }
+
+      .card__title {
+        margin-top: 5px;
+        margin-bottom: 10px;
+      }
+
+      .card__by {
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      .card__author {
+        font-weight: 600;
+        text-decoration: none;
+        color: #0041a1;
+      }
+
+      .card:hover .card__img--hover {
+        height: 100%;
+        opacity: 0.3;
+      }
+
+      .card:hover .card__info {
+        background-color: transparent;
+        position: relative;
+      }
+
+      .card:hover .card__info-hover {
+        opacity: 1;
+      }
     }
 
     .swiper-slide img {
@@ -227,6 +309,44 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+    }
+  }
+  .MV {
+    height: auto;
+    width: 100%;
+    .left {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex: 1;
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      flex: 1;
+    }
+    .box {
+      background-color: white;
+      width: 50%;
+      height: auto;
+      margin: 1rem;
+      padding: 2rem;
+      border-radius: 10px;
+      h2 {
+        text-align: center;
+        text-decoration: dashed;
+        margin-bottom: 1rem;
+      }
+      p {
+        text-align: justify;
+      }
+      @media (max-width: 1024px) {
+        width: 60%;
+      }
+      @media (max-width: 768px) {
+        width: 80%;
+      }
     }
   }
 }

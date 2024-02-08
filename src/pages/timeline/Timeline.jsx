@@ -49,16 +49,27 @@ const Timeline = () => {
                         data-uia-card-mod={1}
                       >
                         <div className="uia-card__container">
-                          <div className="uia-card__intro">
-                            <h3 className="ra-heading">{year.title}</h3>
-                            <span className="uia-card__time">
-                              <span className="uia-card__day">{year.date}</span>
-                            </span>
-                          </div>
-                          <div className="uia-card__body">
-                            <div className="uia-card__description">
-                              <p>{year.para}</p>
+                          <div className="card-main">
+                            <div className="card-content">
+                              <div className="uia-card__intro">
+                                <h3 className="ra-heading">{year.title}</h3>
+                                <span className="uia-card__time">
+                                  <span className="uia-card__day">
+                                    {year.date}
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="uia-card__body">
+                                <div className="uia-card__description">
+                                  <p>{year.para}</p>
+                                </div>
+                              </div>
                             </div>
+                            <img
+                              src={year.image}
+                              className="card-image"
+                              alt=""
+                            />
                           </div>
                         </div>
                       </div>
@@ -85,16 +96,27 @@ const Timeline = () => {
                         data-uia-card-mod={1}
                       >
                         <div className="uia-card__container">
-                          <div className="uia-card__intro">
-                            <h3 className="ra-heading">{year.title}</h3>
-                            <span className="uia-card__time">
-                              <span className="uia-card__day">{year.date}</span>
-                            </span>
-                          </div>
-                          <div className="uia-card__body">
-                            <div className="uia-card__description">
-                              <p>{year.para}</p>
+                          <div className="card-main">
+                            <div className="card-content">
+                              <div className="uia-card__intro">
+                                <h3 className="ra-heading">{year.title}</h3>
+                                <span className="uia-card__time">
+                                  <span className="uia-card__day">
+                                    {year.date}
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="uia-card__body">
+                                <div className="uia-card__description">
+                                  <p>{year.para}</p>
+                                </div>
+                              </div>
                             </div>
+                            <img
+                              src={year.image}
+                              className="card-image"
+                              alt=""
+                            />
                           </div>
                         </div>
                       </div>
@@ -121,16 +143,27 @@ const Timeline = () => {
                         data-uia-card-mod={1}
                       >
                         <div className="uia-card__container">
-                          <div className="uia-card__intro">
-                            <h3 className="ra-heading">{year.title}</h3>
-                            <span className="uia-card__time">
-                              <span className="uia-card__day">{year.date}</span>
-                            </span>
-                          </div>
-                          <div className="uia-card__body">
-                            <div className="uia-card__description">
-                              <p>{year.para}</p>
+                          <div className="card-main">
+                            <div className="card-content">
+                              <div className="uia-card__intro">
+                                <h3 className="ra-heading">{year.title}</h3>
+                                <span className="uia-card__time">
+                                  <span className="uia-card__day">
+                                    {year.date}
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="uia-card__body">
+                                <div className="uia-card__description">
+                                  <p>{year.para}</p>
+                                </div>
+                              </div>
                             </div>
+                            <img
+                              src={year.image}
+                              className="card-image"
+                              alt=""
+                            />
                           </div>
                         </div>
                       </div>
@@ -157,16 +190,27 @@ const Timeline = () => {
                         data-uia-card-mod={1}
                       >
                         <div className="uia-card__container">
-                          <div className="uia-card__intro">
-                            <h3 className="ra-heading">{year.title}</h3>
-                            <span className="uia-card__time">
-                              <span className="uia-card__day">{year.date}</span>
-                            </span>
-                          </div>
-                          <div className="uia-card__body">
-                            <div className="uia-card__description">
-                              <p>{year.para}</p>
+                          <div className="card-main">
+                            <div className="card-content">
+                              <div className="uia-card__intro">
+                                <h3 className="ra-heading">{year.title}</h3>
+                                <span className="uia-card__time">
+                                  <span className="uia-card__day">
+                                    {year.date}
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="uia-card__body">
+                                <div className="uia-card__description">
+                                  <p>{year.para}</p>
+                                </div>
+                              </div>
                             </div>
+                            <img
+                              src={year.image}
+                              className="card-image"
+                              alt=""
+                            />
                           </div>
                         </div>
                       </div>
@@ -193,16 +237,27 @@ const Timeline = () => {
                         data-uia-card-mod={1}
                       >
                         <div className="uia-card__container">
-                          <div className="uia-card__intro">
-                            <h3 className="ra-heading">{year.title}</h3>
-                            <span className="uia-card__time">
-                              <span className="uia-card__day">{year.date}</span>
-                            </span>
-                          </div>
-                          <div className="uia-card__body">
-                            <div className="uia-card__description">
-                              <p>{year.para}</p>
+                          <div className="card-main">
+                            <div className="card-content">
+                              <div className="uia-card__intro">
+                                <h3 className="ra-heading">{year.title}</h3>
+                                <span className="uia-card__time">
+                                  <span className="uia-card__day">
+                                    {year.date}
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="uia-card__body">
+                                <div className="uia-card__description">
+                                  <p>{year.para}</p>
+                                </div>
+                              </div>
                             </div>
+                            <img
+                              src={year.image}
+                              className="card-image"
+                              alt=""
+                            />
                           </div>
                         </div>
                       </div>
@@ -229,16 +284,27 @@ const Timeline = () => {
                         data-uia-card-mod={1}
                       >
                         <div className="uia-card__container">
-                          <div className="uia-card__intro">
-                            <h3 className="ra-heading">{year.title}</h3>
-                            <span className="uia-card__time">
-                              <span className="uia-card__day">{year.date}</span>
-                            </span>
-                          </div>
-                          <div className="uia-card__body">
-                            <div className="uia-card__description">
-                              <p>{year.para}</p>
+                          <div className="card-main">
+                            <div className="card-content">
+                              <div className="uia-card__intro">
+                                <h3 className="ra-heading">{year.title}</h3>
+                                <span className="uia-card__time">
+                                  <span className="uia-card__day">
+                                    {year.date}
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="uia-card__body">
+                                <div className="uia-card__description">
+                                  <p>{year.para}</p>
+                                </div>
+                              </div>
                             </div>
+                            <img
+                              src={year.image}
+                              className="card-image"
+                              alt=""
+                            />
                           </div>
                         </div>
                       </div>
@@ -265,16 +331,27 @@ const Timeline = () => {
                         data-uia-card-mod={1}
                       >
                         <div className="uia-card__container">
-                          <div className="uia-card__intro">
-                            <h3 className="ra-heading">{year.title}</h3>
-                            <span className="uia-card__time">
-                              <span className="uia-card__day">{year.date}</span>
-                            </span>
-                          </div>
-                          <div className="uia-card__body">
-                            <div className="uia-card__description">
-                              <p>{year.para}</p>
+                          <div className="card-main">
+                            <div className="card-content">
+                              <div className="uia-card__intro">
+                                <h3 className="ra-heading">{year.title}</h3>
+                                <span className="uia-card__time">
+                                  <span className="uia-card__day">
+                                    {year.date}
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="uia-card__body">
+                                <div className="uia-card__description">
+                                  <p>{year.para}</p>
+                                </div>
+                              </div>
                             </div>
+                            <img
+                              src={year.image}
+                              className="card-image"
+                              alt=""
+                            />
                           </div>
                         </div>
                       </div>

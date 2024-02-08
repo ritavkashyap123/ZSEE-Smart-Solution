@@ -1,8 +1,9 @@
 import React from "react";
 import "./home.scss";
 import Hero from "./Hero";
-import Services from "./Services";
+import ServiceSection from "./ServiceSection";
 import ImpactSection from "./ImpactSection";
+import MV from "./MV";
 
 const Home = () => {
   return (
@@ -11,14 +12,15 @@ const Home = () => {
       <div className="header u-margin-top-mid">
         Our Services
       </div>
-      <div className="subheader u-margin-bottom-mid">
+      <div className="subheader u-margin-bottom-small">
         What we do offer
       </div>
-      <Services />
-      <div className="header u-margin-top-mid">
+      <ServiceSection />
+      <div className="header u-margin-top-mid u-margin-bottom-small">
         Mission and Vision
       </div>
-      <div className="header">
+      <MV />
+      <div className="header u-margin-top-mid u-margin-bottom-small">
         Impacts
       </div>
       <ImpactSection />
