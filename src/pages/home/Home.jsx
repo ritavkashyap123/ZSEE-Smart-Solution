@@ -13,9 +13,14 @@ const Home = () => {
         Our Services
       </div>
       <div className="subheader u-margin-bottom-small">
-        What we do offer
+        Top services offered by ZSEE Smart Solutions India
       </div>
       <ServiceSection />
+      <div className="btn-div">
+        <button>
+          All Services <span></span><span></span><span></span><span></span>
+        </button>
+      </div>
       <div className="header u-margin-top-mid u-margin-bottom-small">
         Mission and Vision
       </div>
@@ -24,6 +29,11 @@ const Home = () => {
         Impacts
       </div>
       <ImpactSection />
+      <div className="btn-div">
+        <button>
+          All Impacts <span></span><span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
   );
 };

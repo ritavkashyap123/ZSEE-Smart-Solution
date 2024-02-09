@@ -63,30 +63,6 @@ const HeroContent = () => {
       para: "Providing custom, user-friendly and visually appealing websites for businesses and individuals.",
       link: "/",
     },
-    {
-      title: "WordPress Website",
-      image: "images/card-img1.png",
-      para: "Providing custom, user-friendly and visually appealing websites for businesses and individuals.",
-      link: "/",
-    },
-    {
-      title: "WordPress Website",
-      image: "images/card-img1.png",
-      para: "Providing custom, user-friendly and visually appealing websites for businesses and individuals.",
-      link: "/",
-    },
-    {
-      title: "WordPress Website",
-      image: "images/card-img1.png",
-      para: "Providing custom, user-friendly and visually appealing websites for businesses and individuals.",
-      link: "/",
-    },
-    {
-      title: "WordPress Website",
-      image: "images/card-img1.png",
-      para: "Providing custom, user-friendly and visually appealing websites for businesses and individuals.",
-      link: "/",
-    },
   ];
   const impact = [
     {

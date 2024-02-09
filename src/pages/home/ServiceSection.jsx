@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
-import { Grid, Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "./home.scss";
 import HomeContent from "./HomeContent";
 import { Link } from "react-router-dom";
@@ -16,9 +16,6 @@ const ServiceSection = () => {
     <Swiper
       spaceBetween={30}
       slidesPerView={3}
-      grid={{
-        rows: 2,
-      }}
       autoplay={{
         delay: 5000,
         disableOnInteraction: false,
@@ -26,24 +23,22 @@ const ServiceSection = () => {
       pagination={{
         clickable: true,
       }}
-      navigation={true} 
+      navigation={true}
       breakpoints={{
         200: {
-          rows: 2,
+          rows: 1,
           slidesPerView: 1,
         },
         768: {
           slidesPerView: 2,
           spaceBetween: 20,
-          rows: 2,
         },
         1024: {
           slidesPerView: 3,
           spaceBetween: 30,
-          rows: 2,
         },
       }}
-      modules={[Grid, Pagination, Autoplay, Navigation]}
+      modules={[Pagination, Autoplay, Navigation]}
       className="service"
     >
       {service.map((service, index) => (
