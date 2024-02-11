@@ -18,7 +18,7 @@ const Home = () => {
       <ServiceSection />
       <div className="btn-div">
         <button>
-          All Services <span></span><span></span><span></span><span></span>
+          All Services 
         </button>
       </div>
       <div className="header u-margin-top-mid u-margin-bottom-small">
@@ -31,7 +31,7 @@ const Home = () => {
       <ImpactSection />
       <div className="btn-div">
         <button>
-          All Impacts <span></span><span></span><span></span><span></span>
+          All Impacts 
         </button>
       </div>
     </div>

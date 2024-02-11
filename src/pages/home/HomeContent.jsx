@@ -3,25 +3,25 @@ const HeroContent = () => {
     {
       title: "Your Text Here",
       para: "Additional details or description",
-      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg",
+      image: "/marwa 44.JPG",
       link: "/"
     },
     {
       title: "Your Text Here",
       para: "Additional details or description",
-      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg",
+      image: "/marwa 44.JPG",
       link: "/"
     },
     {
       title: "Your Text Here",
       para: "Additional details or description",
-      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg",
+      image: "/marwa 44.JPG",
       link: "/"
     },
     {
       title: "Your Text Here",
       para: "Additional details or description",
-      image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg",
+      image: "/marwa 44.JPG",
       link: "/"
     },
     
@@ -67,37 +67,37 @@ const HeroContent = () => {
   const impact = [
     {
       title: " Crisp Spanish tortilla Matzo brei",
-      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      image: "/marwa 44.JPG",
       category: "IoT",
       link: "/",
     },
     {
       title: " Crisp Spanish tortilla Matzo brei",
-      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      image: "/marwa 44.JPG",
       category: "IoT",
       link: "/",
     },
     {
       title: " Crisp Spanish tortilla Matzo brei",
-      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      image: "/marwa 44.JPG",
       category: "IoT",
       link: "/",
     },
     {
       title: " Crisp Spanish tortilla Matzo brei",
-      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      image: "/marwa 44.JPG",
       category: "IoT",
       link: "/",
     },
     {
       title: " Crisp Spanish tortilla Matzo brei",
-      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      image: "/marwa 44.JPG",
       category: "IoT",
       link: "/",
     },
     {
       title: " Crisp Spanish tortilla Matzo brei",
-      image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      image: "/marwa 44.JPG",
       category: "IoT",
       link: "/",
     },

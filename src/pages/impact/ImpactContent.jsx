@@ -3,25 +3,25 @@ const ImpactContent = () => {
       {
         title: "Your Text Here",
         para: "Additional details or description",
-        image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg",
+        image: "/marwa 44.JPG",
         link: "/"
       },
       {
         title: "Your Text Here",
         para: "Additional details or description",
-        image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg",
+        image: "/marwa 44.JPG",
         link: "/"
       },
       {
         title: "Your Text Here",
         para: "Additional details or description",
-        image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg",
+        image: "/marwa 44.JPG",
         link: "/"
       },
       {
         title: "Your Text Here",
         para: "Additional details or description",
-        image: "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg",
+        image: "/marwa 44.JPG",
         link: "/"
       },
       

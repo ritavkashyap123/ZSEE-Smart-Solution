@@ -11,7 +11,7 @@ const Board = () => {
   return (
     <div className="Board">
       <img
-        src="https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439416.jpg&fm=jpg"
+        src="/marwa 44.JPG"
         alt=""
         className="header-image"
       />
