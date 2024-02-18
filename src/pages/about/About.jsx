@@ -6,6 +6,12 @@ const About = () => {
     <div className="About">
       <img src="/marwa 44.JPG" alt="" className="header-image" />
       <div className="header-text">Board Members</div>
+      <img
+        src="/marwa 44.JPG"
+        alt=""
+        className="header-image"
+      />
+      <div className="header-text">Impact</div>
       <div class="responsive-container-block bigContainer">
         <div class="responsive-container-block Container">
           <div class="responsive-container-block leftSide">
