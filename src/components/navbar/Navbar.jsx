@@ -21,6 +21,10 @@ const Navbar = () => {
     setShowMoreSections(false);
   };
 
+  const closeNav = () => {
+    setIsNavOpen(false);
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
@@ -50,13 +54,13 @@ const Navbar = () => {
         </div>
 
         <ul className={`links ${isNavOpen ? "open" : ""}`}>
-          <li className="link">
+          <li className="link" onClick={closeNav}>
             <Link className="a" to="/">
               Home
             </Link>
           </li>
           <li className="link">
-            <Link className="a" to="/about">
+            <Link className="a" to="/about" onClick={closeNav}>
               About Us
             </Link>
           </li>
@@ -66,26 +70,26 @@ const Navbar = () => {
             </Link>
             {showMoreSections && (
               <div className="more-sections">
-                <Link className="b" to="/services/water">Water</Link>
-                <Link className="b" to="/services/solar">Solar</Link>
-                <Link className="b" to="/services/lightning">Lighting</Link>
-                <Link className="b" to="/services/scada-iot">SCADA & IoT</Link>
-                <Link className="b" to="/services/consultancy">Consultancy</Link>
-                <Link className="b" to="/services/manufacturing">Manufacturing</Link>
+                <Link className="b" to="/services/water" onClick={closeNav}>Water</Link>
+                <Link className="b" to="/services/solar" onClick={closeNav}>Solar</Link>
+                <Link className="b" to="/services/lightning" onClick={closeNav}>Lighting</Link>
+                <Link className="b" to="/services/scada-iot" onClick={closeNav}>SCADA & IoT</Link>
+                <Link className="b" to="/services/consultancy" onClick={closeNav}>Consultancy</Link>
+                <Link className="b" to="/services/manufacturing" onClick={closeNav}>Manufacturing</Link>
               </div>
             )}
           </li>
-          <li className="link">
+          <li className="link" onClick={closeNav}>
             <Link className="a" to="/milestone">
               Milestone
             </Link>
           </li>
-          <li className="link">
+          <li className="link" onClick={closeNav}>
             <Link className="a" to="/project">
               Projects
             </Link>
           </li>
-          <li className="link">
+          <li className="link" onClick={closeNav}>
             <Link className="a" to="/contact">
               Contact Us
             </Link>

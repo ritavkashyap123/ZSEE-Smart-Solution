@@ -16,7 +16,7 @@ const ImpactSection = () => {
     <>
       <Swiper
         slidesPerView={3}
-        spaceBetween={10}
+        spaceBetween={50}
         pagination={{
           clickable: true,
         }}
@@ -31,15 +31,11 @@ const ImpactSection = () => {
           },
           640: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 30,
           },
           1000: {
             slidesPerView: 3,
-            spaceBetween: 30,
-          },
-          1400: {
-            slidesPerView: 4,
-            spaceBetween: 40,
+            spaceBetween: 50,
           },
         }}
         navigation={true}

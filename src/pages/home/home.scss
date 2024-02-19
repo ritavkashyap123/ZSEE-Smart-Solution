@@ -12,6 +12,9 @@
     text-align: center;
     font-size: 1.5rem;
     color: $dark-blue;
+    @media (max-width: 768px) {
+      font-size: 1.2rem;
+    }
   }
   .btn-div {
     display: flex;
@@ -223,8 +226,10 @@
       .blue {
         background-color: #549ef2;
       }
-
-      @media (max-width: 768px) {
+    }
+    @media (max-width: 768px) {
+      height: 65vh;
+      .swiper-slide {
         .card {
           width: 100%;
           margin: 25px 0;
@@ -347,75 +352,71 @@
       height: 100%;
       object-fit: cover;
     }
+    @media (max-width:640px) {
+      height: 65vh;
+    }
   }
   .MV {
-    height: auto;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    .content {
+    .box {
       width: 90%;
-      .left {
-        margin: 1rem;
-        display: flex;
-        // align-items: center;
-        justify-content: start;
-        flex: 1;
-        .box {
-          border-radius: 0 10px 10px 10px;
-          box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-        }
-        .left-triangle {
-          height: 0px;
-          width: 0px;
-          border-top: 15px solid #fff;
-          border-right: 15px solid #fff;
-          border-bottom: 15px solid transparent;
-          border-left: 15px solid transparent;
-          z-index: 10;
-        }
+      display: flex;
+      justify-content: space-between;
+      .flip-card {
+        background-color: transparent;
+        width: 45%;
+        height: 40vh;
+        border: 1px solid #f1f1f1;
+        // perspective: 1000px; /* Remove this if you don't want the 3D effect */
       }
-      .right {
-        margin: 1rem;
-        display: flex;
-        justify-content: end;
-        flex: 1;
-        .box {
-          border-radius: 10px 0px 10px 10px;
-          box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-        }
-        .right-triangle {
-          height: 0px;
-          width: 0px;
-          border-top: 15px solid #fff;
-          border-left: 15px solid #fff;
-          border-right: 15px solid transparent;
-          border-bottom: 15px solid transparent;
-          z-index: 10;
-        }
+
+      /* This container is needed to position the front and back side */
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
       }
+
+      /* Do an horizontal flip when you move the mouse over the flip box container */
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+
+      /* Position the front and back side */
+      .flip-card-front,
+      .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+
+      /* Style the front side (fallback if image is missing) */
+      .flip-card-front {
+        background-color: #bbb;
+        color: black;
+      }
+
+      /* Style the back side */
+      .flip-card-back {
+        background-color: dodgerblue;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    }
+    @media (max-width: 56.5rem) {
       .box {
-        background-color: white;
-        width: 50%;
-        height: auto;
-        padding: 2rem;
-        h2 {
-          text-align: center;
-          text-decoration: dashed;
-          margin-bottom: 1rem;
-        }
-        p {
-          text-align: justify;
-        }
-        @media (max-width: 1024px) {
-          width: 60%;
-        }
-        @media (max-width: 768px) {
-          width: 80%;
-          p {
-            font-size: 0.7rem;
-          }
+        flex-direction: column;
+        gap: 1rem;
+        .flip-card {
+          width: 100%;
+          height: 60vh;
         }
       }
     }

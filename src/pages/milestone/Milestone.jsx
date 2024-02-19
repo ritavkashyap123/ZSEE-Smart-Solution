@@ -12,7 +12,7 @@ const Milestone = () => {
       <Timeline lineColor={"#ddd"}>
         <TimelineItem
           key="001"
-          dateText="11/2010 – Present"
+          dateText="Year 2024"
           style={{ color: "#e86971" }}
         >
           <h3>Title, Company</h3>
@@ -40,6 +40,180 @@ const Milestone = () => {
           </p>
         </TimelineItem>
         <TimelineItem
+          key="002"
+          dateText="Year 2023"
+          style={{ color: "#e86971" }}
+        >
+          <h3>Title, Company</h3>
+          <h4>Subtitle</h4>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+        </TimelineItem>
+        <TimelineItem
+          key="003"
+          dateText="Year 2022"
+          style={{ color: "#e86971" }}
+        >
+          <h3>Title, Company</h3>
+          <h4>Subtitle</h4>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+        </TimelineItem>
+        <TimelineItem
+          key="004"
+          dateText="Year 2021"
+          style={{ color: "#e86971" }}
+        >
+          <h3>Title, Company</h3>
+          <h4>Subtitle</h4>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+        </TimelineItem>
+        <TimelineItem
+          key="005"
+          dateText="year 2020"
+          style={{ color: "#e86971" }}
+        >
+          <h3>Title, Company</h3>
+          <h4>Subtitle</h4>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+        </TimelineItem>
+        <TimelineItem
+          key="006"
+          dateText="Year 2019"
+          style={{ color: "#e86971" }}
+        >
+          <h3>Title, Company</h3>
+          <h4>Subtitle</h4>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+        </TimelineItem>
+        <TimelineItem
+          key="007"
+          dateText="Year 2018"
+          style={{ color: "#e86971" }}
+        >
+          <h3>Title, Company</h3>
+          <h4>Subtitle</h4>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+        </TimelineItem>
+        {/* <TimelineItem
           key="002"
           dateText="04/2009 – 11/2010"
           dateInnerStyle={{ background: "#61b8ff", color: "#000" }}
@@ -88,7 +262,7 @@ const Milestone = () => {
             irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
             qui duis Lorem est.
           </p>
-        </TimelineItem>
+        </TimelineItem> */}
       </Timeline>
     </div>
   );

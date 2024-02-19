@@ -26,12 +26,12 @@ const Home = () => {
       </div>
       <MV />
       <div className="header u-margin-top-mid u-margin-bottom-small">
-        Impacts
+        Projects
       </div>
       <ImpactSection />
       <div className="btn-div">
         <button>
-          All Impacts 
+          All Projects 
         </button>
       </div>
     </div>
