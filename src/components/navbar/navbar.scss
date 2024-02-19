@@ -10,9 +10,10 @@
   display: flex;
   justify-content: center;
   .more-sections {
+    width: 10vw;
     height: 35vh;
     position: absolute;
-    background-color: #fff8;
+    background-color: #fffc;
     backdrop-filter: blur(5px);
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -33,7 +34,8 @@
       &:hover {
         transition: 0.3s;
         text-decoration: underline;
-        text-decoration-color: #007a69bb;
+        text-underline-offset: 0.3rem;
+        
       }
       &:active {
         transform: translate(-3px, 3px);
@@ -81,36 +83,30 @@
       text-decoration: none;
       color: white;
       text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-      transition: 0.3s;
+      display: block;
+      position: relative;
+      padding: 0.2em 0;
       display: flex;
       align-items: center;
       gap: 0.5rem;
-      // &:after {
-      //   background: none repeat scroll 0 0 transparent;
-      //   bottom: 0;
-      //   content: "";
-      //   display: block;
-      //   height: 2px;
-      //   left: 50%;
-      //   position: absolute;
-      //   background: #fff;
-      //   transition: width 0.3s ease 0s, left 0.3s ease 0s;
-      //   width: 0;
-      // }
-      // &:hover:after {
-      //   width: 100%;
-      //   left: 0;
-      // }
-      &:hover {
-        // color: #007a69bb;
-        text-decoration: underline;
-        text-decoration-thickness: 2px;
-        text-underline-offset: 5px;
-        transition: 0.3s;
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0.1em;
+        background-color: #fff;
+        opacity: 0;
+        transition: opacity 300ms, transform 300ms;
+        opacity: 1;
+        transform: scale(0);
+        transform-origin: center;
       }
-      &:active {
-        transform: translate(-3px, 3px);
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      
+      &:hover::after,
+      &:focus::after{
+        transform: scale(1);
       }
     }
 
@@ -135,9 +131,14 @@
     @media (max-width: 1200px) {
       .a {
         font-size: 1rem;
+        display: flex;
+        justify-content: center;
       }
     }
     @media (max-width: 1000px) {
+      .more-sections {
+        width: auto;
+      }
       .links {
         display: none;
       }
@@ -201,9 +202,9 @@
         // left: 0;
         width: 90%;
         padding: 2rem 0;
-        background-color: #ffff;
+        background-color: #fffd;
         // -webkit-backdrop-filter: blur(10px);
-        // backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
         box-shadow: 0 0.5rem 1;
         border-radius: 10px;
       }
@@ -223,8 +224,5 @@
   }
 }
 .scrolled {
-  // background: radial-gradient(-90deg, #00013b 40%, #00429e 80%);
-  // background: radial-gradient(circle, #00429e 0%, rgba(0,0,0,1) 100%);
-  background: #007a69bb;
-  backdrop-filter: blur(10px);
+  background: #007a69;
 }
