@@ -1,19 +1,19 @@
 import React from "react";
-import "./impact.scss";
+import "./project.scss";
 import ImpactContent from "./ImpactContent";
 import { Link } from "react-router-dom";
 
-const Impact = () => {
+const Project = () => {
   const { impact } = ImpactContent();
 
   return (
-    <div className="Impact">
+    <div className="Project">
       <img
         src="/marwa 44.JPG"
         alt=""
         className="header-image"
       />
-      <div className="header-text">Impact</div>
+      <div className="header-text">Project</div>
       <ul className="cards">
       {impact.map((impact, index) => (
         <li className="cards__item" key={index}>
@@ -35,4 +35,4 @@ const Impact = () => {
   );
 };
 
-export default Impact;
+export default Project;

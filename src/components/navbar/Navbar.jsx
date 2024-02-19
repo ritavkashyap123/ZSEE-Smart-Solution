@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
 import logo from "/logo.png";
+import { FaAngleDown } from "react-icons/fa";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -42,7 +43,6 @@ const Navbar = () => {
           ZSEE Smart Solution <br />
           India Private Limited
         </Link>
-
         <div className="hamburger" onClick={toggleNav}>
           <div className={`line ${isNavOpen ? "open" : ""}`}></div>
           <div className={`line ${isNavOpen ? "open" : ""}`}></div>
@@ -62,26 +62,26 @@ const Navbar = () => {
           </li>
           <li className="link" onMouseEnter={handleServicesHover} onMouseLeave={handleServicesLeave}>
             <Link className="a">
-              Services
+              Services <FaAngleDown className="arrow" />
             </Link>
             {showMoreSections && (
               <div className="more-sections">
-                <Link className="b" to="/services/section1">Water</Link>
-                <Link className="b" to="/services/section2">Solar</Link>
-                <Link className="b" to="/services/section3">Lighting</Link>
-                <Link className="b" to="/services/section3">SCADA & IoT</Link>
-                <Link className="b" to="/services/section3">Consultancy</Link>
-                <Link className="b" to="/services/section3">Manufacturing</Link>
+                <Link className="b" to="/services/water">Water</Link>
+                <Link className="b" to="/services/solar">Solar</Link>
+                <Link className="b" to="/services/lightning">Lighting</Link>
+                <Link className="b" to="/services/scada-iot">SCADA & IoT</Link>
+                <Link className="b" to="/services/consultancy">Consultancy</Link>
+                <Link className="b" to="/services/manufacturing">Manufacturing</Link>
               </div>
             )}
           </li>
           <li className="link">
-            <Link className="a" to="/timeline">
+            <Link className="a" to="/milestone">
               Milestone
             </Link>
           </li>
           <li className="link">
-            <Link className="a" to="/impact">
+            <Link className="a" to="/project">
               Projects
             </Link>
           </li>
