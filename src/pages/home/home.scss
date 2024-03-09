@@ -1,16 +1,18 @@
-@import "../../styles/colors.scss";
+@import "../../styles/main.scss";
+
 .Home {
   display: block;
   .header {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
     margin: 0.5rem;
     color: $dark-blue;
+    background-color: #efefef;
   }
   .subheader {
-    text-align: center;
-    font-size: 1.5rem;
+    margin-left: 8rem;
+    font-size: 2rem;
     color: $dark-blue;
     @media (max-width: 768px) {
       font-size: 1.2rem;
@@ -352,7 +354,7 @@
       height: 100%;
       object-fit: cover;
     }
-    @media (max-width:640px) {
+    @media (max-width: 640px) {
       height: 65vh;
     }
   }

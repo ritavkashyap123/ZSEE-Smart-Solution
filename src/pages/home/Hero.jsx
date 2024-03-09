@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   const { hero } = HomeContent();
   return (
-    <>
+    // <div className="Hero">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -43,7 +43,7 @@ const Hero = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    // </div>
   );
 };
 

@@ -129,23 +129,23 @@ const Footer = () => {
           <p className="copyright">© 2024 ZSEE. All Rights Reserved.</p>
           <div className="social-icons-box">
             <Link to="#" className="social-link">
-              <FaFacebook className="icon" />
+              <FaFacebook className="icon-link" />
             </Link>
             <Link to="#" className="social-link">
-              <FaInstagram className="icon" />
+              <FaInstagram className="icon-link" />
             </Link>
             <Link to="#" className="social-link">
-              <FaLinkedin className="icon" />
+              <FaLinkedin className="icon-link" />
             </Link>
             <Link to="#" className="social-link">
-              <FaYoutube className="icon" />
+              <FaYoutube className="icon-link" />
             </Link>
           </div>
         </div>
       </div>
       <div className="row-3">
         <p className="developer-text">
-          Made with 🤍 &amp;&amp; 🔥 by Gigcrafters
+          Made by Gigcrafters
         </p>
       </div>
     </>

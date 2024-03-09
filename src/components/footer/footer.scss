@@ -1,5 +1,4 @@
-@import "../../styles/viewport.scss";
-@import "../../styles/colors.scss";
+@import "../../styles/main.scss";
 
 .Footer {
   padding: 4rem;
@@ -56,6 +55,17 @@
       text-decoration: none;
       color: currentColor;
     }
+    .icon-link {
+      width: 4rem;
+      height: 4rem;
+    
+      @media (hover: hover) {
+        &:hover {
+          //ANIMATION USAGE
+          animation: rotate 2s ease;
+        }
+      }
+    }
   }
 
   .row-3 {
@@ -68,7 +78,7 @@
   }
 
   .title {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
     font-family: inherit;
     display: block;
@@ -90,7 +100,7 @@
       font-weight: 300;
       color: $color-white;
       text-decoration: none;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
 
     @media (hover: hover) {
