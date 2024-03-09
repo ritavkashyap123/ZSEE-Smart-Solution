@@ -107,6 +107,10 @@ body {
 .icon-box {
   display: flex;
   align-items: center;
+  padding: 1.5rem;
+  background-color: #007a69;
+  border-radius: 50%;
+
 }
 
 ::-webkit-scrollbar {
