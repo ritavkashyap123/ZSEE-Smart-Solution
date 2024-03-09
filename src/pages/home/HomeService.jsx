@@ -67,10 +67,7 @@ import { FaSolarPanel, FaNetworkWired } from "react-icons/fa";
 import { BsLightning } from "react-icons/bs";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 import { LuNetwork } from "react-icons/lu";
-
-
-
-
+import { Link } from "react-router-dom";
 
 const HomeService = () => {
   return (
@@ -87,27 +84,30 @@ const HomeService = () => {
       </p>
       <div className="what-we-offer__content-box">
         <div className="what-we-offer__content">
-          <h4 className="what-we-offer__title u-margin-bottom-small">
-            <span className="icon-box">
-              {/* <svg className="icon">
+          <Link to="/services/water" className="service-link">
+            <h4 className="what-we-offer__title u-margin-bottom-small">
+              <span className="icon-box">
+                {/* <svg className="icon">
                 <use xlinkHref="img/sprite.svg#crane" />
               </svg> */}
-              <IoWaterOutline className="icon"/>
-            </span>
-            Water 
-          </h4>
-          <p className="paragraph">
-            Whatever your construction requirements we can help you - from new
-            builds to refurbishments.
-          </p>
+                <IoWaterOutline className="icon" />
+              </span>
+              Water
+            </h4>
+            <p className="paragraph">
+              Whatever your construction requirements we can help you - from new
+              builds to refurbishments.
+            </p>
+          </Link>
         </div>
         <div className="what-we-offer__content">
+        <Link to="/services/solar" className="service-link">
           <h4 className="what-we-offer__title u-margin-bottom-small">
             <span className="icon-box">
               {/* <svg className="icon">
                 <use xlinkHref="img/sprite.svg#compass" />
               </svg> */}
-              < FaSolarPanel className="icon" />
+              <FaSolarPanel className="icon" />
             </span>
             Solar
           </h4>
@@ -115,14 +115,16 @@ const HomeService = () => {
             Building Design, Interior Design, Structural Design, 3D
             Visualization.
           </p>
+          </Link>
         </div>
         <div className="what-we-offer__content">
+        <Link to="/services/lightning" className="service-link">
           <h4 className="what-we-offer__title u-margin-bottom-small">
             <span className="icon-box">
               {/* <svg className="icon">
                 <use xlinkHref="img/sprite.svg#electric" />
               </svg> */}
-              < BsLightning className="icon" />
+              <BsLightning className="icon" />
             </span>
             Lightning
           </h4>
@@ -130,14 +132,16 @@ const HomeService = () => {
             We install and cable associated devices such as switches,
             distribution boards, sockets, and light fittings in a structure.
           </p>
+          </Link>
         </div>
         <div className="what-we-offer__content">
+        <Link to="/services/scada-iot" className="service-link">
           <h4 className="what-we-offer__title u-margin-bottom-small">
             <span className="icon-box">
               {/* <svg className="icon">
                 <use xlinkHref="img/sprite.svg#view" />
               </svg> */}
-              < LuNetwork className="icon" />
+              <LuNetwork className="icon" />
             </span>
             SCADA &amp; IoT
           </h4>
@@ -145,8 +149,10 @@ const HomeService = () => {
             Hard landscaping projects create an interesting outside area to your
             property and will add to its value.
           </p>
+          </Link>
         </div>
         <div className="what-we-offer__content">
+        <Link to="/services/consultancy" className="service-link">
           <h4 className="what-we-offer__title u-margin-bottom-small">
             <span className="icon-box">
               {/* <svg className="icon">
@@ -161,14 +167,16 @@ const HomeService = () => {
             mechanical equipment in Private Housing, Social Housing and
             Commercial properties.
           </p>
+          </Link>
         </div>
         <div className="what-we-offer__content">
+        <Link to="/services/manufacturing" className="service-link">
           <h4 className="what-we-offer__title u-margin-bottom-small">
             <span className="icon-box">
               {/* <svg className="icon">
                 <use xlinkHref="img/sprite.svg#roof" />
               </svg> */}
-              < MdOutlinePrecisionManufacturing className="icon" />
+              <MdOutlinePrecisionManufacturing className="icon" />
             </span>
             Manufacturing
           </h4>
@@ -176,6 +184,7 @@ const HomeService = () => {
             We provide effective, service-oriented roofing and consistently
             providing our clients with materials of the highest quality.
           </p>
+          </Link>
         </div>
       </div>
     </section>
