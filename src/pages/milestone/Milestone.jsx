@@ -2,14 +2,40 @@ import React from "react";
 import "./milestone.scss";
 import TimelineContent from "./TimelineContent";
 import { Link } from "react-router-dom";
-import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+// import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { BiStopwatch } from "react-icons/bi";
 
 const Milestone = () => {
   return (
     <div className="Milestone">
       <img src="/marwa 44.JPG" alt="" className="header-image" />
       <div className="header-text">Milestone</div>
-      <Timeline lineColor={"#ddd"}>
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="2011 - present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<BiStopwatch />}
+        >
+          <h3 className="vertical-timeline-element-title">Title, Company</h3>
+          <h4 className="vertical-timeline-element-subtitle">Subtitle</h4>
+          <p>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex
+            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
+            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
+            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
+            qui duis Lorem est.
+          </p>
+        </VerticalTimelineElement>
+      </VerticalTimeline>
+      {/* <Timeline lineColor={"#ddd"}>
         <TimelineItem
           key="001"
           dateText="Year 2024"
@@ -213,7 +239,7 @@ const Milestone = () => {
             qui duis Lorem est.
           </p>
         </TimelineItem>
-        {/* <TimelineItem
+        <TimelineItem
           key="002"
           dateText="04/2009 – 11/2010"
           dateInnerStyle={{ background: "#61b8ff", color: "#000" }}
@@ -262,8 +288,8 @@ const Milestone = () => {
             irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
             qui duis Lorem est.
           </p>
-        </TimelineItem> */}
-      </Timeline>
+        </TimelineItem>
+      </Timeline> */}
     </div>
   );
 };
