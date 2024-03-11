@@ -36,9 +36,9 @@ const Hero = () => {
             <div className="slide-text">
               <div className="title">{hero.title}</div>
               <div className="tag">{hero.para}</div>
-              <Link to={hero.link} className="link">
+              {/* <Link to={hero.link} className="link">
                 Read More <FcNext style={{ color: "#18C9C5" }} />
-              </Link>
+              </Link> */}
             </div>
           </SwiperSlide>
         ))}

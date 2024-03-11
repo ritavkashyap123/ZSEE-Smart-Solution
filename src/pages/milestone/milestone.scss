@@ -1,19 +1,31 @@
-@import '../../styles/main.scss';
+@import "../../styles/main.scss";
 
 .Milestone {
-  .timeline {
-    max-width: 1200px;
-    &:before {
-      left: calc(33% + 10px);
-      @media (max-width: 1200px) {
-        left: calc(33% + 6px);
-      }
-      @media (max-width: 768px) {
-        left: calc(1% + 5px);
+  .vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    font-size: 1.5rem;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    .writings {
+      flex: 2;
+      p {
+        text-align: justify;
       }
     }
-  }
-  p {
-    margin-bottom: 1rem;
+    .image {
+      flex: 1;
+      object-fit: cover;
+      display: flex;
+      justify-content: end;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
   }
 }

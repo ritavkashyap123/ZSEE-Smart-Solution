@@ -1,19 +1,19 @@
 const HeroContent = () => {
   const hero = [
     {
-      title: "Your Text Here",
+      title: "Solar Project",
       para: "Additional details or description",
       image: "/marwa 44.JPG",
       link: "/",
     },
     {
-      title: "Your Text Here",
+      title: "Water Project",
       para: "Additional details or description",
       image: "/marwa 44.JPG",
       link: "/",
     },
     {
-      title: "Your Text Here",
+      title: "Zincalume Tank Installation",
       para: "Additional details or description",
       image: "/marwa 44.JPG",
       link: "/",

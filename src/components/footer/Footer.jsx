@@ -22,13 +22,13 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="item">
-                <Link to="/board" className="link">
-                  Board
+                <Link to="/milestone" className="link">
+                  Milestone
                 </Link>
               </li>
               <li className="item">
-                <Link to="/impact" className="link">
-                  Impact
+                <Link to="/project" className="link">
+                  Project
                 </Link>
               </li>
               <li className="item">
@@ -38,7 +38,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="box">
+          {/* <div className="box">
             <h4 className="title">Timeline</h4>
             <ul className="list">
               <li className="item">
@@ -62,7 +62,7 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* <div className="box">
           <label htmlFor="language" className="title">
             Language
@@ -78,23 +78,33 @@ const Footer = () => {
             <h4 className="title">Services</h4>
             <ul className="list">
               <li className="item">
-                <Link to="#" className="link">
-                  Accra
+                <Link to="/services/water" className="link">
+                  Water
                 </Link>
               </li>
               <li className="item">
-                <Link to="#" className="link">
-                  Kumasi
-                </Link>
-              </li>
-              <li className="#item">
-                <Link to="" className="link">
-                  Takoradi
+                <Link to="services/solar" className="link">
+                  Solar
                 </Link>
               </li>
               <li className="item">
-                <Link to="#" className="link">
-                  Kasoa
+                <Link to="/services/lightning" className="link">
+                  Lightining
+                </Link>
+              </li>
+              <li className="item">
+                <Link to="/services/scada-iot" className="link">
+                  SCADA & IoT
+                </Link>
+              </li>
+              <li className="item">
+                <Link to="/services/consultancy" className="link">
+                  Consultancy
+                </Link>
+              </li>
+              <li className="item">
+                <Link to="/services/manufacturing" className="link">
+                  Manufacturing
                 </Link>
               </li>
             </ul>
@@ -103,7 +113,7 @@ const Footer = () => {
             <h4 className="title">Support</h4>
             <ul className="list">
               <li className="item">
-                <Link to="#" className="link">
+                <Link to="/contact" className="link">
                   Get Help
                 </Link>
               </li>

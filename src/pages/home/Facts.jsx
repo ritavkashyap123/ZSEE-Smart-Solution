@@ -7,12 +7,12 @@ const Facts = () => {
 
   return (
     <div className="Facts">
-      <main class="page-content">
+      <main className="page-content">
         {facts.map((fact, index) => (
-          <div class="card" key={index}>
-            <div class="content">
-              <h2 class="title">{fact.title}</h2>
-              <p class="copy">{fact.copy}</p>
+          <div className="card" key={index}>
+            <div className="content">
+              <h2 className="title">{fact.title}</h2>
+              <p className="copy">{fact.copy}</p>
               {/* <button class="btn">View Trips</button> */}
             </div>
           </div>
