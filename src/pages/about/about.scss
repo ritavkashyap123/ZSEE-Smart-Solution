@@ -1,4 +1,22 @@
 
 .About {
   display: block;
+  .Footprints {
+    margin: 8rem;
+    @media (max-width:900px) {
+      margin: 2rem;
+    }
+    .footmap {
+      display: block;
+      @media (max-width:800px) {
+        display: none;
+      }
+    }
+    .footmap-mobile {
+      display: none;
+      @media (max-width:800px) {
+        display: block;
+      }
+    }
+  }
 }

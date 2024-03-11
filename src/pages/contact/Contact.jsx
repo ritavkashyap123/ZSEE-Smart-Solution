@@ -45,7 +45,7 @@ const Contact = () => {
           </div>
 
           <div className="right">
-            <form action="#" className="form form">
+            <form action="mailto:ritavkashyap123@gmail.com" method="GET" className="form form">
               <div className="col col--1 u-margin-bottom-small">
                 <div className="group">
                   <label htmlFor="name" className="label">
@@ -78,6 +78,20 @@ const Contact = () => {
                 </div>
               </div>
 
+              <div className="col col--2 u-margin-bottom-mid">
+                <div className="group">
+                  <label htmlFor="subject" className="label">
+                    Subject
+                  </label>
+                  <input
+                    name="subject"
+                    id="subject"
+                    className="input"
+                    required
+                    placeholder="Subject"
+                  />
+                </div>
+              </div>
               <div className="col col--2 u-margin-bottom-mid">
                 <div className="group">
                   <label htmlFor="message" className="label">

@@ -20,19 +20,19 @@ const Who = () => {
         <div className="who-we-are__right">
           <p className="who-we-are__paragraph paragraph">
             <span className="emphasis">20</span>
-            Years of Experience
+            Kw of Solar Panel installed till date
           </p>
           <p className="who-we-are__paragraph paragraph">
             <span className="emphasis">40+</span>
-            Clients all over the world
+            Km of pipeline laid till date
           </p>
           <p className="who-we-are__paragraph paragraph">
             <span className="emphasis">20.2 p</span>
-            Interim dividend per share up 83.3%
+            No of houses which got water supply
           </p>
           <p className="who-we-are__paragraph paragraph">
             <span className="emphasis">GHc1m</span>
-            Construction Backlog Revenue
+            Reduction in carbon footprint
           </p>
         </div>
       </div>

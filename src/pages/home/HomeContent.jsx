@@ -4,27 +4,26 @@ const HeroContent = () => {
       title: "Your Text Here",
       para: "Additional details or description",
       image: "/marwa 44.JPG",
-      link: "/"
+      link: "/",
     },
     {
       title: "Your Text Here",
       para: "Additional details or description",
       image: "/marwa 44.JPG",
-      link: "/"
+      link: "/",
     },
     {
       title: "Your Text Here",
       para: "Additional details or description",
       image: "/marwa 44.JPG",
-      link: "/"
+      link: "/",
     },
     {
       title: "Your Text Here",
       para: "Additional details or description",
       image: "/marwa 44.JPG",
-      link: "/"
+      link: "/",
     },
-    
   ];
   const service = [
     {
@@ -142,6 +141,28 @@ const HeroContent = () => {
       link: "/",
     },
   ];
+  const facts = [
+    {
+      title: "Kw of Solar Panel installed till date",
+      copy: "Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains",
+      button: "View Trips",
+    },
+    {
+      title: "Km of pipeline laid till date",
+      copy: "Plan your next beach trip with these fabulous destinations",
+      button: "View Trips",
+    },
+    {
+      title: "No of houses which got water supply",
+      copy: "It's the desert you've always dreamed of",
+      button: "Book Now",
+    },
+    {
+      title: "Reduction in carbon footprint",
+      copy: "Seriously, straight up, just blast off into outer space today",
+      button: "Book Now",
+    },
+  ];
 
   return {
     hero,
@@ -149,6 +170,7 @@ const HeroContent = () => {
     impact,
     mission,
     testimonials,
+    facts,
   };
 };
 

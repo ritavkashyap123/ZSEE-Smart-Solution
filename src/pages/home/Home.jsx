@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import ServiceSection from "./HomeProject";
 import ImpactSection from "./HomeService";
 import Mission from "./Mission";
+import Facts from "./Facts";
 
 const Home = () => {
   return (
@@ -23,14 +24,26 @@ const Home = () => {
       {/* <div className="header u-margin-top-mid u-margin-bottom-small">
         Mission and Vision
       </div> */}
+      <h3
+        className="heading-tertiary u-margin-bottom-small"
+        style={{ margin: "8rem" }}
+      >
+        Facts
+      </h3>
+      <Facts />
       <Mission />
-      <h3 className="heading-tertiary u-margin-bottom-small" style={{margin: "8rem"}}>Projects</h3>
-      <ServiceSection />
       {/* <div className="btn-div">
         <button>
-          All Projects 
+        All Projects 
         </button>
       </div> */}
+            <h3
+        className="heading-tertiary u-margin-bottom-small"
+        style={{ margin: "8rem" }}
+      >
+        News and Updates
+      </h3>
+      <ServiceSection />
     </div>
   );
 };
