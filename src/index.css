@@ -32,6 +32,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 @media (max-width: 535px) {
   .header-text {
     font-size: 2rem;
@@ -136,8 +137,8 @@ body {
   border-radius: 50%;
   cursor: pointer;
   top: 95%;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   transform: translateY(-50%);
   border: 1px solid #549ef2;
   z-index: 1000;
@@ -145,7 +146,7 @@ body {
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: black;
 }
 
@@ -155,4 +156,51 @@ body {
 .swiper-pagination-bullets.swiper-pagination-horizontal {
   display: flex;
   justify-content: center;
+}
+
+.subcategory {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  background-color: #fff;
+}
+.subcatname {
+  cursor: pointer;
+  position: relative;
+  padding: 0.2em 0;
+}
+.subcatname::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+
+.subcatname:hover::after,
+.subcatname:focus::after{
+  transform: scale(1.1);
+}
+
+.globalheader {
+  margin: 8rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .globalheader {
+    margin: 4rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 68.75em) {
+  .globalheader {
+    margin: 4rem;
+  }
 }

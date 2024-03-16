@@ -2,7 +2,7 @@ import React from "react";
 
 const Who = () => {
   return (
-    <section className="who-we-are">
+    <section className="who-we-are" id="about-the-company">
       <h3 className="heading-tertiary u-margin-bottom-small">Builco</h3>
       <div className="who-we-are__content">
         <div className="who-we-are__left">

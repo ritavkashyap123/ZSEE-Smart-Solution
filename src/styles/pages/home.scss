@@ -69,13 +69,14 @@
     padding: 4rem 2rem;
   }
 
-  background-image: linear-gradient(
-      rgba($color-white, 0.9),
-      rgba($color-white, 0.9)
-    ),
-    url("/services-bg-img.png");
-  background-position: center center;
-  background-size: cover;
+  // background-image: linear-gradient(
+  //     rgba($color-white, 0.9),
+  //     rgba($color-white, 0.9)
+  //   ),
+  //   url("/services-bg-img.png");
+  // background-position: center center;
+  // background-size: cover;
+  background-color: #f8f8f8;
 
   &__content-box {
     display: flex;

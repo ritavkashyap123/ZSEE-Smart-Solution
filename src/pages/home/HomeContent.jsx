@@ -3,7 +3,7 @@ const HeroContent = () => {
     {
       title: "Solar Project",
       para: "Additional details or description",
-      image: "/marwa 44.JPG",
+      image: "/solarHome.JPG",
       link: "/",
     },
     {

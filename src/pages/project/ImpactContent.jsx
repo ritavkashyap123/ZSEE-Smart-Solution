@@ -1,5 +1,32 @@
 const ImpactContent = () => {
-    const impact = [
+    const impactful = [
+      {
+        title: "Your Text Here",
+        para: "Additional details or description",
+        image: "/marwa 44.JPG",
+        link: "/"
+      },
+      {
+        title: "Your Text Here",
+        para: "Additional details or description",
+        image: "/marwa 44.JPG",
+        link: "/"
+      },
+      {
+        title: "Your Text Here",
+        para: "Additional details or description",
+        image: "/marwa 44.JPG",
+        link: "/"
+      },
+      {
+        title: "Your Text Here",
+        para: "Additional details or description",
+        image: "/marwa 44.JPG",
+        link: "/"
+      },
+      
+    ];
+    const ongoing = [
       {
         title: "Your Text Here",
         para: "Additional details or description",
@@ -27,7 +54,8 @@ const ImpactContent = () => {
       
     ];
     return {
-        impact
+        impactful,
+        ongoing
       };
     };
     
