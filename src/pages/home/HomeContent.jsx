@@ -3,25 +3,19 @@ const HeroContent = () => {
     {
       title: "Solar Project",
       para: "Additional details or description",
-      image: "/solarHome.JPG",
+      image: "/Hero1.jpg",
       link: "/",
     },
     {
       title: "Water Project",
       para: "Additional details or description",
-      image: "/marwa 44.JPG",
+      image: "/Hero2.jpg",
       link: "/",
     },
     {
       title: "Zincalume Tank Installation",
       para: "Additional details or description",
-      image: "/marwa 44.JPG",
-      link: "/",
-    },
-    {
-      title: "Your Text Here",
-      para: "Additional details or description",
-      image: "/marwa 44.JPG",
+      image: "/Hero3.jpg",
       link: "/",
     },
   ];

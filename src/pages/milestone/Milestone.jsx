@@ -24,8 +24,8 @@ const Milestone = () => {
 
   return (
     <div className="Milestone">
-      <img src="/marwa 44.JPG" alt="" className="header-image" />
-      <div className="header-text">Milestone</div>
+      {/* <img src="/marwa 44.JPG" alt="" className="header-image" /> */}
+      <div className="header-text"></div>
       <VerticalTimeline>
         {milestones?.map((card, index) => (
           <VerticalTimelineElement
