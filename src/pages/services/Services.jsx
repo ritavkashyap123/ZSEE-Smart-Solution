@@ -8,12 +8,12 @@ const Services = () => {
   const { service } = ServicesContent();
   return (
     <div className="Services">
-      <img
+      {/* <img
         src="/marwa 44.JPG"
         alt=""
         className="header-image"
-      />
-      <div className="header-text">Our Services</div>
+      /> */}
+      <div className="header-text"></div>{" "}
       {service.map((service, index) => (
         <div className="service-div">
           <div key={index} className="border-top-black">

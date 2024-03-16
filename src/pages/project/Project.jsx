@@ -19,8 +19,8 @@ const Project = () => {
 
   return (
     <div className="Project">
-      <img src="/marwa 44.JPG" alt="" className="header-image" />
-      <div className="header-text">Project</div>
+      {/* <img src="/marwa 44.JPG" alt="" className="header-image" /> */}
+      <div className="header-text"></div>
       <div className="subcategory">
         <div
           className="subcatname"

@@ -118,17 +118,17 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="item">
-                <Link to="#" className="link">
+                <Link to="faq" className="link">
                   FAQs
                 </Link>
               </li>
               <li className="item">
-                <Link to="#" className="link">
+                <Link to="privacy-policy" className="link">
                   Privacy Policy
                 </Link>
               </li>
               <li className="item">
-                <Link to="#" className="link">
+                <Link to="terms-conditions" className="link">
                   Terms of Operation
                 </Link>
               </li>

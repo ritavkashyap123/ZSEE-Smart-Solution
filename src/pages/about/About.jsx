@@ -6,7 +6,6 @@ import Footprints from "./Footprints";
 import Team from "./Team";
 
 const About = () => {
-
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
     if (targetElement) {
@@ -21,19 +20,16 @@ const About = () => {
   return (
     <div>
       <div className="About">
-        <img src="/marwa 44.JPG" alt="" className="header-image" />
-        <div className="header-text">About us</div>
+        {/* <img src="/marwa 44.JPG" alt="" className="header-image" /> */}
+        <div className="header-text"></div>
         <div className="subcategory">
           <div
             className="subcatname"
             onClick={() => handleClick("#about-the-company")}
           >
-            About the Company 
+            About the Company
           </div>
-          <div
-            className="subcatname"
-            onClick={() => handleClick("#our-team")}
-          >
+          <div className="subcatname" onClick={() => handleClick("#our-team")}>
             Human Capitals
           </div>
         </div>

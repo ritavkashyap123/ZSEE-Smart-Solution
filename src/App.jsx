@@ -16,6 +16,9 @@ import Project from "./pages/project/Project";
 import Contact from "./pages/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Board from "./pages/board/Board";
+import PrivacyPolicy from "./pages/Support/PrivacyPolicy";
+import TermsCondition from "./pages/Support/TermsCondition";
+import FAQ from "./pages/Support/FAQ";
 
 function App() {
   return (
@@ -35,6 +38,9 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/milestone" element={<Milestone />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-conditions" element={<TermsCondition />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
       <Footer />
     </BrowserRouter>

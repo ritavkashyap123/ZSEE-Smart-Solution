@@ -7,12 +7,12 @@ import Map from "../../components/map/Map";
 const Contact = () => {
   return (
     <div className="Contact">
-      <img
+      {/* <img
         src="/marwa 44.JPG"
         alt=""
         className="header-image"
-      />
-      <div className="header-text">Contact</div>
+      /> */}
+      <div className="header-text"></div>{" "}
       <div className="contact-us">
         <div className="container">
           <div className="left">
@@ -45,7 +45,11 @@ const Contact = () => {
           </div>
 
           <div className="right">
-            <form action="mailto:ritavkashyap123@gmail.com" method="GET" className="form form">
+            <form
+              action="mailto:ritavkashyap123@gmail.com"
+              method="GET"
+              className="form form"
+            >
               <div className="col col--1 u-margin-bottom-small">
                 <div className="group">
                   <label htmlFor="name" className="label">
