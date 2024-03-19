@@ -1,22 +1,22 @@
 import React from "react";
 import "./contact.scss";
+import ContactContent from "./ContactContent";
 
 import { FaAngleDown } from "react-icons/fa";
 import Map from "../../components/map/Map";
+import { Link } from "react-router-dom";
+import { FaLocationDot, FaPhoneFlip, FaEnvelope } from "react-icons/fa6";
 
 const Contact = () => {
+  const { location } = ContactContent();
+
   return (
     <div className="Contact">
-      {/* <img
-        src="/marwa 44.JPG"
-        alt=""
-        className="header-image"
-      /> */}
-      <div className="header-text"></div>{" "}
+      <div className="header-text"></div>
       <div className="contact-us">
         <div className="container">
           <div className="left">
-            <div className="inner-content-box">
+            {/* <div className="inner-content-box">
               <h2 className="heading-secondary u-margin-bottom-small">
                 Let's Talk
               </h2>
@@ -25,23 +25,25 @@ const Contact = () => {
                 when we establish ongoing relationships that allow us to
                 materially contribute to their long-term success.
               </p>
-            </div>
-            <div className="inner-content-box">
-              <h3 className="title u-margin-bottom-small">
-                <span className="icon-box">
-                  <FaAngleDown />
-                </span>
-                Visit us personally
-              </h3>
-              <p className="paragraph u-margin-bottom-small">
-                Beside Atta Quarshie Merton Memorial Hospital Ave 2nd Floor,
-                Kaneshie, Accra.
-              </p>
+            </div> */}
+            {location?.map((loc, index) => (
+              <div className="inner-content-box" key={index}>
+                <h3 className="title">{loc.title}</h3>
+                <Link className="contact-link">
+                  <p className="paragraph">📍 {loc.address}</p>
+                </Link>
+                <Link className="contact-link" to={`tel:${loc.phono}`}>
+                  <p className="paragraph">📞 {loc.phono}</p>
+                </Link>
+                <Link className="contact-link u-margin-bottom-small" to={`mailto:${loc.email}`}>
+                  <p className="paragraph">📧 {loc.email}</p>
+                </Link>
 
-              <div className="img-box">
+                {/*           <div className="img-box">
                 <Map />
+              </div> */}
               </div>
-            </div>
+            ))}
           </div>
 
           <div className="right">

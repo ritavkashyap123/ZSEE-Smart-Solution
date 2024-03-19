@@ -164,12 +164,14 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem 0;
-  background-color: #fff;
+  background-color: #007a69;
+  /* border-top: 1px solid #fff; */
 }
 .subcatname {
   cursor: pointer;
   position: relative;
-  padding: 0.2em 0;
+  padding: 0.5rem;
+  color: #fff;
 }
 .subcatname::after {
   content: '';
@@ -178,7 +180,7 @@ body {
   left: 0;
   width: 100%;
   height: 0.1em;
-  background-color: #000;
+  background-color: #fff;
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
   opacity: 1;

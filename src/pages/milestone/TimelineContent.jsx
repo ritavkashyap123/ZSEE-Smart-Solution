@@ -1,5 +1,3 @@
-
-
 const TimelineContent = () => {
   const milestones = [
     {

@@ -21,6 +21,7 @@ import TermsCondition from "./pages/Support/TermsCondition";
 import FAQ from "./pages/Support/FAQ";
 
 function App() {
+  
   return (
     <BrowserRouter>
       <Navbar />

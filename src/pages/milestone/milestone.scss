@@ -4,7 +4,10 @@
   .vertical-timeline--two-columns
     .vertical-timeline-element-content
     .vertical-timeline-element-date {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    @media (max-width: 800px) {
+      
+    }
   }
   .cards {
     display: flex;
@@ -26,6 +29,9 @@
         width: 100%;
         height: auto;
       }
+    }
+    @media (max-width: 525px) {
+      flex-direction: column;
     }
   }
 }

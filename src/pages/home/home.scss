@@ -360,7 +360,7 @@
     }
   }
   .Facts {
-    $imageIds: "1", "2", "3", "4";
+    $imageIds: "1", "2", "5", "4";
 
     $bp-sm: 350px;
     $bp-md: 600px;
@@ -455,6 +455,7 @@
         $i: index($imageIds, $id);
 
         &:nth-child(#{$i}):before {
+          filter: brightness(70%);
           background-image: url("/facts#{$id}.jpg");
         }
       }

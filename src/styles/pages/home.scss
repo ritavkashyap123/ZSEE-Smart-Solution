@@ -131,7 +131,7 @@
   @media only screen and (max-width: 68.75em) {
     padding: 4rem;
   }
-
+  
   @include viewport(phone) {
     padding: 4rem 2rem;
   }
