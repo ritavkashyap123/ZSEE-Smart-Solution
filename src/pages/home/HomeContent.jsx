@@ -13,9 +13,15 @@ const HeroContent = () => {
       link: "/",
     },
     {
-      title: "Zincalume Tank Installation",
+      title: "Automation",
       para: "Additional details or description",
-      image: "/Hero3.jpg",
+      image: "/Hero4.jpg",
+      link: "/",
+    },
+    {
+      title: "Manufacturing",
+      para: "Additional details or description",
+      image: "/Hero5.jpg",
       link: "/",
     },
   ];

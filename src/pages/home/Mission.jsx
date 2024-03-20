@@ -25,7 +25,7 @@ const Mission = () => {
         </div>
         <div className="mission__right">
           <div className="mission__img-box">
-            <img src="/mav.jpg" alt="Mission Image" className="mission__img" />
+            <img src="/facts8.jpg" alt="Mission Image" className="mission__img" />
           </div>
         </div>
       </div>

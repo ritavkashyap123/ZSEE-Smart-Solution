@@ -262,7 +262,6 @@
       box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
       &:hover {
         box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-        transform: scale(1.1, 1.1);
         cursor: pointer;
       }
       .card {
@@ -360,7 +359,7 @@
     }
   }
   .Facts {
-    $imageIds: "1", "2", "5", "4";
+    $imageIds: "1", "6", "5", "7";
 
     $bp-sm: 350px;
     $bp-md: 600px;

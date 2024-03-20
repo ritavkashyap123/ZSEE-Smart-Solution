@@ -56,10 +56,10 @@ const HomeProject = () => {
                 />
               </Link>
               <div className="card__info">
-                <span className="card__category">{impact.category}</span>
                 <h3 className="card__title">
                   {impact.title}
                 </h3>
+                <p className="card__category">{impact.category}</p>
                 <span className="card__by">
                   <Link to={impact.link} className="card__author">
                     Read More

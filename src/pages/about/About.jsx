@@ -6,6 +6,7 @@ import Footprints from "./Footprints";
 import Team from "./Team";
 
 const About = () => {
+  
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
     if (targetElement) {

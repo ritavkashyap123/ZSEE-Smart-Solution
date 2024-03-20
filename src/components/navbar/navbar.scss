@@ -1,12 +1,11 @@
 .Navbar {
   width: 100%;
   position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
   z-index: 15;
   align-items: center;
   display: flex;
   justify-content: center;
+  background-color: #007a69;
   .more-sections {
     width: 10vw;
     height: 35vh;
@@ -202,6 +201,6 @@
     }
   }
 }
-.scrolled {
-  background: #007a69;
-}
+// .scrolled {
+//   background: #007a69;
+// }
