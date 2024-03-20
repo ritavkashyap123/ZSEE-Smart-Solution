@@ -6,7 +6,6 @@ import Footprints from "./Footprints";
 import Team from "./Team";
 
 const About = () => {
-  
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
     if (targetElement) {
@@ -31,7 +30,7 @@ const About = () => {
             About the Company
           </div>
           <div className="subcatname" onClick={() => handleClick("#our-team")}>
-            Human Capitals
+            Company Ensemble
           </div>
         </div>
         <Who />

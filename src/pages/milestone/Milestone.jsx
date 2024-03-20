@@ -26,46 +26,46 @@ const Milestone = () => {
     <div className="Milestone">
       {/* <img src="/marwa 44.JPG" alt="" className="header-image" /> */}
       <div className="header-text"></div>
-      <VerticalTimeline>
-        {milestones?.map((card, index) => (
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{
-              // background: colors[index % colors.length],
-              background: "#fff",
-              color: "#000",
-            }}
-            contentArrowStyle={{
-              // borderRight: `10px solid ${colors[index % colors.length]}`,
-              borderRight: `10px solid #fff`,
-            }}
-            date={card.year}
-            dateClassName="date"
-            iconStyle={{
-              // background: colors[index % colors.length],
-              background: "#B6FFB0",
-              color: "#000",
-            }}
-            icon={<BiStopwatch />}
-            key={index}
-          >
-            <div className="cards">
-              <div className="writings">
-                <h3 className="vertical-timeline-element-title">
-                  {card.title}
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  {card.subtitle}
-                </h4>
-                <p>{card.para}</p>
+        <VerticalTimeline>
+          {milestones?.map((card, index) => (
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{
+                // background: colors[index % colors.length],
+                background: "#fff",
+                color: "#000",
+              }}
+              contentArrowStyle={{
+                // borderRight: `10px solid ${colors[index % colors.length]}`,
+                borderRight: `10px solid #fff`,
+              }}
+              date={card.year}
+              dateClassName="date"
+              iconStyle={{
+                // background: colors[index % colors.length],
+                background: "#B6FFB0",
+                color: "#000",
+              }}
+              icon={<BiStopwatch />}
+              key={index}
+            >
+              <div className="cards">
+                <div className="writings">
+                  <h3 className="vertical-timeline-element-title">
+                    {card.title}
+                  </h3>
+                  <h4 className="vertical-timeline-element-subtitle">
+                    {card.subtitle}
+                  </h4>
+                  <p>{card.para}</p>
+                </div>
+                <div className="image">
+                  <img src="/facts1.jpg" alt="" />
+                </div>
               </div>
-              <div className="image">
-                <img src="/facts1.jpg" alt="" />
-              </div>
-            </div>
-          </VerticalTimelineElement>
-        ))}
-      </VerticalTimeline>
+            </VerticalTimelineElement>
+          ))}
+        </VerticalTimeline>
     </div>
   );
 };
