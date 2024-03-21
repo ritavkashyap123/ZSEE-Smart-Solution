@@ -20,6 +20,7 @@
 
   .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 8rem;
@@ -144,7 +145,7 @@
             }
             .input:invalid,
             .textarea:invalid {
-              outline-color: red;
+              outline-color: #18C9C5;
             }
             .textarea {
               height: 24rem;

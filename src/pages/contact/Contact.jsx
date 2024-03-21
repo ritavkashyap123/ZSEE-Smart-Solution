@@ -49,7 +49,7 @@ const Contact = () => {
           <div className="right">
             <form
               action="mailto:ritavkashyap123@gmail.com"
-              method="GET"
+              method="post"
               className="form form"
             >
               <div className="col col--1 u-margin-bottom-small">
@@ -59,7 +59,7 @@ const Contact = () => {
                   </label>
                   <input
                     className="input"
-                    type="name"
+                    type="text"
                     name="name"
                     id="name"
                     placeholder="Full Name"
@@ -91,6 +91,7 @@ const Contact = () => {
                   </label>
                   <input
                     name="subject"
+                    type="subject"
                     id="subject"
                     className="input"
                     required
@@ -113,7 +114,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <button className="btn btn--green">Send us a message</button>
+              <button className="btn btn--green" type="submit" value="send">Send us a message</button>
             </form>
           </div>
         </div>
