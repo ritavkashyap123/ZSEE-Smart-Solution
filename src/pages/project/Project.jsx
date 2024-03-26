@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./project.scss";
 import ImpactContent from "./ImpactContent";
 import { Link } from "react-router-dom";
 
 const Project = () => {
   const { impactful, ongoing } = ImpactContent();
+  const [activeSubcategory, setActiveSubcategory] = useState(null);
 
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
@@ -14,6 +15,7 @@ const Project = () => {
         top: targetPosition,
         behavior: "smooth",
       });
+      setActiveSubcategory(id);
     }
   };
 
@@ -23,13 +25,17 @@ const Project = () => {
       <div className="header-text"></div>
       <div className="subcategory">
         <div
-          className="subcatname"
+          className={`subcatname ${
+            activeSubcategory === "#impactful-projects" ? "active" : ""
+          }`}
           onClick={() => handleClick("#impactful-projects")}
         >
           Impactful Projects
         </div>
         <div
-          className="subcatname"
+          className={`subcatname ${
+            activeSubcategory === "#ongoing-projects" ? "active" : ""
+          }`}
           onClick={() => handleClick("#ongoing-projects")}
         >
           Ongoing Projects

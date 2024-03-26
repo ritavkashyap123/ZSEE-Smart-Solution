@@ -160,9 +160,20 @@ body {
   color: #fff;
 }
 
+@keyframes activebar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .active {
   border-bottom: 2px solid white;
+  /* animation: activebar 1s ease infinite alternate; */
 }
+
 
 .subcatname {
   cursor: pointer;
@@ -184,12 +195,12 @@ body {
   opacity: 1;
   transform: scale(0);
   transform-origin: center;
-} */
+}
 
 .subcatname:hover::after,
 .subcatname:focus::after {
   transform: scale(1.1);
-}
+} */
 
 .globalheader {
   margin: 8rem;
