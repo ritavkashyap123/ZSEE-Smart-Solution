@@ -200,3 +200,12 @@ body {
     margin: 4rem;
   }
 }
+
+.tabbar {
+  height: 8vh;
+}
+@media (max-width: 768px) {
+  .tabbar {
+    height: 15vh;
+  }
+}

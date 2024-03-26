@@ -33,6 +33,7 @@ const About = () => {
             Company Ensemble
           </div>
         </div>
+        <div className="tabbar"></div>
         <Who />
         <Why />
         <Footprints />

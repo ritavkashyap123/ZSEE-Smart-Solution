@@ -7,7 +7,7 @@ const Water = () => {
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
     if (targetElement) {
-      const targetPosition = targetElement.offsetTop - 100;
+      const targetPosition = targetElement.offsetTop - 200;
       window.scrollTo({
         top: targetPosition,
         behavior: "smooth",
@@ -30,6 +30,7 @@ const Water = () => {
           </div>
         ))}
       </div>
+      <div className="tabbar"></div>
       {water.map((water, index) => (
         <div key={index}>
           <h3

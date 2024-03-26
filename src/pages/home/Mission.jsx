@@ -9,23 +9,28 @@ const Mission = () => {
           <div className="mission__content">
             <h4 className="mission__title u-margin-bottom-small">Vision</h4>
             <p className="paragraph">
-              Our Vision is to be one of the prestigious Building Construction
-              organizations providing lasting edifice for our clients all over
-              Africa, with world-class technology at a competitive cost.
+              Our vision is to be a global leader in sustainable development,
+              driving impactful change through renewable energy initiatives,
+              water conservation projects, and eco-conscious manufacturing,
+              creating a world where sustainability is the cornerstone of
+              progress.
             </p>
           </div>
           <div className="mission__content">
             <h4 className="mission__title u-margin-bottom-small">Mission</h4>
             <p className="paragraph">
-              Our Vision is to be one of the prestigious Building Construction
-              organizations providing lasting edifice for our clients all over
-              Africa, with world-class technology at a competitive cost.
+              Our mission is to pioneer sustainable solutions through innovative
+              ideas fostering eco-friendly practices for a greener tomorrow.
             </p>
           </div>
         </div>
         <div className="mission__right">
           <div className="mission__img-box">
-            <img src="/facts8.jpg" alt="Mission Image" className="mission__img" />
+            <img
+              src="/facts8.jpg"
+              alt="Mission Image"
+              className="mission__img"
+            />
           </div>
         </div>
       </div>

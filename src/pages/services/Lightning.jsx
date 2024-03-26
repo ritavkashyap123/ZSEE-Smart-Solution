@@ -8,7 +8,7 @@ const Lightning = () => {
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
     if (targetElement) {
-      const targetPosition = targetElement.offsetTop - 100;
+      const targetPosition = targetElement.offsetTop - 200;
       window.scrollTo({
         top: targetPosition,
         behavior: "smooth",
@@ -30,6 +30,7 @@ const Lightning = () => {
           </div>
         ))}
       </div>
+      <div className="tabbar"></div>
       {lightning.map((light, index) => (
         <div key={index}>
           <h3

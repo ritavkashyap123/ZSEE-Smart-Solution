@@ -9,7 +9,7 @@ const Project = () => {
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
     if (targetElement) {
-      const targetPosition = targetElement.offsetTop - 100;
+      const targetPosition = targetElement.offsetTop - 200;
       window.scrollTo({
         top: targetPosition,
         behavior: "smooth",
@@ -35,6 +35,7 @@ const Project = () => {
           Ongoing Projects
         </div>
       </div>
+      <div className="tabbar"></div>
       <h3
         className="heading-tertiary u-margin-bottom-small globalheader"
         id="impactful-projects"

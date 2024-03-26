@@ -2,25 +2,25 @@ const HeroContent = () => {
   const hero = [
     {
       title: "Solar Project",
-      para: "Additional details or description",
+      para: "Our solar projects reflect commitment to environmental stewardship and clean energy solutions. The solar installation combines state-of-the-art technology with our expertise in renewable energy, delivering sustainable power solutions that reduce carbon footprints and drive positive change. This initiative not only aligns with our corporate values of sustainability and environmental responsibility but also contributes to a greener future for generations to come.",
       image: "/Hero1.jpg",
       link: "/",
     },
     {
       title: "Water Project",
-      para: "Additional details or description",
+      para: "Through innovative technology and strategic partnerships, we've implemented a comprehensive water conservation and purification initiative. Our project not only ensures access to clean water but also promotes responsible water management practices, benefiting both people and the environment.",
       image: "/Hero2.jpg",
       link: "/",
     },
     {
       title: "Automation",
-      para: "Additional details or description",
+      para: "Discover the power of automation in our diverse projects, revolutionising efficiency and precision across industries. From streamlined manufacturing processes to intelligent data analytics, our automation solutions drive innovation and optimise performance. Embracing cutting-edge technology, we're reshaping the future of work with seamless integration and advanced robotics. ",
       image: "/Hero4.jpg",
       link: "/",
     },
     {
       title: "Manufacturing",
-      para: "Additional details or description",
+      para: "Our range of advanced machines caters to diverse production needs, ensuring exceptional quality and efficiency. Elevate your production with accuracy and efficiency.",
       image: "/Hero5.jpg",
       link: "/",
     },
