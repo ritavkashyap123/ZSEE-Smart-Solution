@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import ServicesContent from "./ServicesContent";
-
 
 const Solar = () => {
   const { solar } = ServicesContent();
+  const [activeSubcategory, setActiveSubcategory] = useState(null);
 
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
@@ -13,6 +13,7 @@ const Solar = () => {
         top: targetPosition,
         behavior: "smooth",
       });
+      setActiveSubcategory(id);
     }
   };
   return (
@@ -22,7 +23,9 @@ const Solar = () => {
       <div className="subcategory" style={{ flexWrap: "wrap" }}>
         {solar.map((solar, index) => (
           <div
-            className="subcatname"
+            className={`subcatname ${
+              activeSubcategory === `#${solar.id}` ? "active" : ""
+            }`}
             onClick={() => handleClick(`#${solar.id}`)}
             key={index}
           >

@@ -152,20 +152,26 @@ body {
 .subcategory {
   position: fixed;
   width: 100%;
-  z-index: 2 ;
+  z-index: 2;
   display: flex;
   justify-content: space-evenly;
   padding: 2rem 0;
   background-color: #007a69;
-  /* border-top: 1px solid #fff; */
+  color: #fff;
 }
+
+.active {
+  border-bottom: 2px solid white;
+}
+
 .subcatname {
   cursor: pointer;
   position: relative;
   padding: 0.5rem;
-  color: #fff;
+  /* color: #fff; */
 }
-.subcatname::after {
+
+/* .subcatname::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -178,10 +184,10 @@ body {
   opacity: 1;
   transform: scale(0);
   transform-origin: center;
-}
+} */
 
 .subcatname:hover::after,
-.subcatname:focus::after{
+.subcatname:focus::after {
   transform: scale(1.1);
 }
 
@@ -204,6 +210,7 @@ body {
 .tabbar {
   height: 8vh;
 }
+
 @media (max-width: 768px) {
   .tabbar {
     height: 15vh;

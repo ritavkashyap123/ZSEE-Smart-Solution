@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./about.scss";
 import Who from "./Who";
 import Why from "./Why";
@@ -6,6 +6,8 @@ import Footprints from "./Footprints";
 import Team from "./Team";
 
 const About = () => {
+  const [activeSubcategory, setActiveSubcategory] = useState(null);
+
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
     if (targetElement) {
@@ -14,22 +16,31 @@ const About = () => {
         top: targetPosition,
         behavior: "smooth",
       });
+      setActiveSubcategory(id); // Set the active subcategory
     }
   };
 
   return (
     <div>
       <div className="About">
-        {/* <img src="/marwa 44.JPG" alt="" className="header-image" /> */}
         <div className="header-text"></div>
         <div className="subcategory">
           <div
-            className="subcatname"
+            // className="subcatname"
+            className={`subcatname ${
+              activeSubcategory === "#about-the-company" ? "active" : ""
+            }`}
             onClick={() => handleClick("#about-the-company")}
           >
             About the Company
           </div>
-          <div className="subcatname" onClick={() => handleClick("#our-team")}>
+          <div
+            // className="subcatname"
+            className={`subcatname ${
+              activeSubcategory === "#our-team" ? "active" : ""
+            }`}
+            onClick={() => handleClick("#our-team")}
+          >
             Company Ensemble
           </div>
         </div>

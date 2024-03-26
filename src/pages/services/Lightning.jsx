@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import ServicesContent from "./ServicesContent";
-
 
 const Lightning = () => {
   const { lightning } = ServicesContent();
+  const [activeSubcategory, setActiveSubcategory] = useState(null);
 
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
@@ -13,6 +13,7 @@ const Lightning = () => {
         top: targetPosition,
         behavior: "smooth",
       });
+      setActiveSubcategory(id);
     }
   };
   return (
@@ -22,7 +23,9 @@ const Lightning = () => {
       <div className="subcategory" style={{ flexWrap: "wrap" }}>
         {lightning.map((light, index) => (
           <div
-            className="subcatname"
+          className={`subcatname ${
+            activeSubcategory === `#${light.id}`? "active" : ""
+          }`}
             onClick={() => handleClick(`#${light.id}`)}
             key={index}
           >

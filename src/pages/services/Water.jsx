@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import ServicesContent from "./ServicesContent";
 
 const Water = () => {
   const { water } = ServicesContent();
+  const [activeSubcategory, setActiveSubcategory] = useState(null);
 
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
@@ -12,6 +13,7 @@ const Water = () => {
         top: targetPosition,
         behavior: "smooth",
       });
+      setActiveSubcategory(id);
     }
   };
 
@@ -22,7 +24,9 @@ const Water = () => {
       <div className="subcategory" style={{ flexWrap: "wrap" }}>
         {water.map((water, index) => (
           <div
-            className="subcatname"
+            className={`subcatname ${
+              activeSubcategory === `#${water.id}` ? "active" : ""
+            }`}
             onClick={() => handleClick(`#${water.id}`)}
             key={index}
           >

@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import ServicesContent from "./ServicesContent";
-
 
 const Manufacturing = () => {
   const { manufacturing } = ServicesContent();
+  const [activeSubcategory, setActiveSubcategory] = useState(null);
 
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
@@ -13,6 +13,7 @@ const Manufacturing = () => {
         top: targetPosition,
         behavior: "smooth",
       });
+      setActiveSubcategory(id);
     }
   };
   return (
@@ -22,7 +23,9 @@ const Manufacturing = () => {
       <div className="subcategory" style={{ flexWrap: "wrap" }}>
         {manufacturing.map((man, index) => (
           <div
-            className="subcatname"
+            className={`subcatname ${
+              activeSubcategory === `#${man.id}` ? "active" : ""
+            }`}
             onClick={() => handleClick(`#${man.id}`)}
             key={index}
           >
