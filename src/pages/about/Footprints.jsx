@@ -1,26 +1,25 @@
 import React, { useState, useEffect, useRef } from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
 import "./about.scss";
 import PopupCard from "../../components/map/PopupCard";
+import Map from "../../components/map/Map";
 
 const Footprints = () => {
-  const mapRef = useRef(null);
-  const latitude = 24.5937;
-  const longitude = 78.9629;
-  const markerPosition1 = ["34.5539", "76.1349"];
-  const markerPosition2 = ["28.2180", "94.7278"];
-  const markerPosition3 = [latitude, longitude];
-  const markerPosition4 = [latitude, longitude];
-  const [popupOpen1, setPopupOpen1] = useState(false);
-  const [popupOpen2, setPopupOpen2] = useState(false);
+  // const mapRef = useRef(null);
+  // const latitude = 24.5937;
+  // const longitude = 78.9629;
+  // const markerPosition1 = ["34.5539", "76.1349"];
+  // const markerPosition2 = ["28.2180", "94.7278"];
+  // const markerPosition3 = [latitude, longitude];
+  // const markerPosition4 = [latitude, longitude];
+  // const [popupOpen1, setPopupOpen1] = useState(false);
+  // const [popupOpen2, setPopupOpen2] = useState(false);
 
-  const togglePopup1 = () => {
-    setPopupOpen1(!popupOpen1);
-  };
-  const togglePopup2 = () => {
-    setPopupOpen2(!popupOpen2);
-  };
+  // const togglePopup1 = () => {
+  //   setPopupOpen1(!popupOpen1);
+  // };
+  // const togglePopup2 = () => {
+  //   setPopupOpen2(!popupOpen2);
+  // };
 
   return (
     <div className="Footprints">
@@ -29,7 +28,9 @@ const Footprints = () => {
         The positive changes we've brought to society.
       </h3>
       <div className="footmap">
-        <MapContainer
+        <Map />
+        {/* <img src="/India-Map.jpg" alt="" width="100%" height="60%" /> */}
+        {/* <MapContainer
           center={["24.5937", "78.9629"]}
           zoom={5}
           ref={mapRef}
@@ -90,7 +91,7 @@ const Footprints = () => {
               />
             </Popup>
           </Marker>
-        </MapContainer>
+        </MapContainer> */}
       </div>
     </div>
   );

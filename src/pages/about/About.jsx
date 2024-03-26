@@ -9,7 +9,7 @@ const About = () => {
   const handleClick = (id) => {
     const targetElement = document.querySelector(id);
     if (targetElement) {
-      const targetPosition = targetElement.offsetTop - 50;
+      const targetPosition = targetElement.offsetTop - 200;
       window.scrollTo({
         top: targetPosition,
         behavior: "smooth",
