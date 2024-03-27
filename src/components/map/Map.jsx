@@ -5,7 +5,7 @@ import PopupCard from "./PopupCard";
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
 
-const Map = () => {
+const Map = ({ zoom }) => {
   const mapContainerRef = useRef(null);
   const markerRef = useRef(null);
 
@@ -13,8 +13,8 @@ const Map = () => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
       style: "mapbox://styles/ritavkashyap/clu8mq52t00y801mjdzhb02uw",
-      center: [80.329, 22.512],
-      zoom: 4,
+      center: [83.329, 22.512],
+      zoom: zoom,
       scrollZoom: false,
       doubleClickZoom: false 
     });
@@ -53,7 +53,7 @@ const Map = () => {
     ];
 
     markerData.forEach((markerInfo) => {
-      const marker = new mapboxgl.Marker()
+      const marker = new mapboxgl.Marker({ cursor: 'pointer' })
         .setLngLat(markerInfo.lngLat)
         .addTo(map);
 
@@ -88,30 +88,3 @@ const Map = () => {
 };
 
 export default Map;
-
-// import * as React from "react";
-// import Map, { Marker } from "react-map-gl";
-// import 'mapbox-gl/dist/mapbox-gl.css';
-
-// const Maps = () => {
-//   return (
-//     <div style={{ width: "100%", height: "80vh" }}>
-//       <Map
-//         mapboxAccessToken={import.meta.env.VITE_MAPBOX_TOKEN}
-//         initialViewState={{
-//           longitude: 80.329,
-//           latitude: 22.512,
-//           zoom: 4.2,
-//           scrollZoom: false,
-//         }}
-//         mapStyle="mapbox://styles/ritavkashyap/clu8mq52t00y801mjdzhb02uw"
-//       >
-//         <Marker longitude={80.329} latitude={22.512} anchor="bottom">
-//           {/* <img src="./pin.png" /> */}
-//         </Marker>
-//       </Map>
-//     </div>
-//   );
-// };
-
-// export default Maps;

@@ -87,6 +87,18 @@ body {
     }
   }
 }
+.card-icon {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+
+  @media (hover: hover) {
+    &:hover {
+      //ANIMATION USAGE
+      animation: rotate 2s ease;
+    }
+  }
+}
 
 .social-icon {
   width: 3.2rem;

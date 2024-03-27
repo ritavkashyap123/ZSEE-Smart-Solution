@@ -178,7 +178,7 @@
     }
 
     @include viewport(tab-port) {
-      height: 28rem;
+      // height: 28rem;
     }
   }
 
@@ -186,7 +186,7 @@
     display: block;
     width: 100%;
     object-fit: cover;
-    object-position: top center;
+    object-position: bottom;
   }
 
   &__content {
